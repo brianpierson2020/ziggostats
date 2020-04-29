@@ -1,0 +1,16 @@
+{
+  "name": "ziggostats",
+  "version": "1.0.0",
+  "description": "A local HTTP API to scrape regular statistics from the Arris TG2492LG router also known as Ziggo Connectbox.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Pierson",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "puppeteer": "^3.0.0"
+  }
+}
