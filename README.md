@@ -110,6 +110,10 @@ Optionally you can disable the API by setting the environment variable `disableA
 
 It will start a local API, by default on TCP port 43015. You can access the last data on http://127.0.0.1:43015/latest.json.
 
+    # Clone this repository:
+    git clone https://github.com/brianpierson2020/ziggostats.git ziggostats
+    cd ziggostats
+    
     # Stop and remove the old container/image
     docker stop ziggostats
     docker rm ziggostats
