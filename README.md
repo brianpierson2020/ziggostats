@@ -1,6 +1,8 @@
 # Ziggostats
 A local HTTP API to scrape regular statistics from the Arris TG2492LG router also known as Ziggo Connectbox.
 
+![image](https://user-images.githubusercontent.com/64499648/80610260-6cb82d80-8a39-11ea-8d3a-b27470d9aa57.png)
+
 ## Introduction
 This Docker container can be used to start a local API in your network that shows statistics about your Arris TG2492LG Router. ISP Ziggo (The Netherlands) names this router The Ziggo Connectbox. Be aware that this API should be hosted in your internal network, without exposing it to the internet. The API does not require any authentication and exposes a lot of information about your local network. _It could technically expose your SSID passwords too but for the sake of security and to prevent misconfigurations, I left that part out._
 
